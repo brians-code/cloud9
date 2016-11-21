@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+  cloud9:
+    image: briansdocker/phusion-cloud9-php7
+    container_name: cloud9
+    environment:
+      - VIRTUAL_HOST=cloud9.dev
+    volumes:
+      - ${CLOUD9}:/var/www/html
+    ports:
+      - 8080:8080
+      - 80
