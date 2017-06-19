@@ -9,7 +9,7 @@ Features
  - Git integration
  - Debugging
  - Integrated console
- - Uses command-line variable to auto-mount external directory
+ - Accessible from anywhere
  - Designed to easily adapt to any workflow
 
 Getting Started
